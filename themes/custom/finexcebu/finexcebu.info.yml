@@ -7,6 +7,7 @@ description: 'A Drupal Bootstrap 3 based sub-theme.'
 package: 'Bootstrap'
 
 regions:
+  header1: 'Header1'
   navigation: 'Navigation'
   navigation_collapsible: 'Navigation (Collapsible)'
   header: 'Top Bar'
