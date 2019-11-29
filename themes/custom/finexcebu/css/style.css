@@ -2,24 +2,94 @@
 body {
   font-family: arial;
   background: #090A43 url(../images/gradient_bg.png) no-repeat top right;
+  color: #fff;
 }
-/* line 5, ../sass/style.scss */
+/* line 6, ../sass/style.scss */
 body div.header1 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-/* line 9, ../sass/style.scss */
+/* line 10, ../sass/style.scss */
 body div.header1 section#block-finexcebuslogan {
   float: right;
   margin: 22px 0 0 0;
 }
-/* line 14, ../sass/style.scss */
+/* line 15, ../sass/style.scss */
 body div.header-outer-container {
   background: url(../images/outerheader_bg.png) repeat-x bottom center;
 }
-/* line 17, ../sass/style.scss */
+/* line 18, ../sass/style.scss */
 body div.header-outer-container header {
-  background: url(../images/main_menubg.png);
+  #background: #10149d;
+  #background: linear-gradient(0deg, #10149d 0%, #2e87c9 63%, #b5cbe4 100%);
+  background: #0007ff;
   border: none !important;
   border-radius: 0px !important;
+}
+/* line 29, ../sass/style.scss */
+body div.header-outer-container header .navbar-nav > .open .dropdown-menu {
+  background-color: #0007ff;
+}
+/* line 32, ../sass/style.scss */
+body div.header-outer-container header .navbar-nav > li > a,
+body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > a {
+  color: #fff;
+}
+/* line 36, ../sass/style.scss */
+body div.header-outer-container header .navbar-nav > li > span {
+  color: #fff;
+  background-color: transparent;
+  cursor: pointer;
+  padding: 15px 10px 15px 10px;
+  display: block;
+  line-height: 20px;
+  margin: 0px;
+}
+/* line 45, ../sass/style.scss */
+body div.header-outer-container header .navbar-nav > li > a.active,
+body div.header-outer-container header .navbar-nav > li > .active-trail,
+body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > .active-trail {
+  color: #000;
+  background-color: #fffe13;
+}
+/* line 51, ../sass/style.scss */
+body div.header-outer-container header .navbar-nav > li > a:hover,
+body div.header-outer-container header .navbar-nav > li > span:hover,
+body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > a:hover {
+  color: #000;
+  background-color: #fffe13;
+}
+/* line 57, ../sass/style.scss */
+body div.header-outer-container header .navbar-nav > .open > a,
+body div.header-outer-container header .navbar-nav > .open > a:hover,
+body div.header-outer-container header .navbar-nav > .open > a:focus {
+  color: #000;
+  background-color: #fffe13;
+}
+/* line 67, ../sass/style.scss */
+body section .block-title {
+  color: #000;
+  background: #ffab4c;
+  background: linear-gradient(0deg, #ffab4c 7%, #efff00 90%, black 100%);
+  height: 30px;
+  display: table;
+  box-shadow: 0 2px 1px #fff;
+  margin-bottom: 2px;
+  font-size: 16px;
+  width: 100%;
+  text-align: center;
+  font-weight: bold;
+  padding-top: 8px;
+  border-radius: 6px 6px 0px 0px;
+}
+/* line 83, ../sass/style.scss */
+body section .field--item {
+  background: #245694;
+  background: linear-gradient(39deg, #245694 0%, #3682cf 100%);
+  padding: 8px;
+}
+/* line 91, ../sass/style.scss */
+body section#block-finexcebuslogan .field--item {
+  background: none;
+  padding: 0px;
 }
