@@ -129,6 +129,8 @@ body {
     }
 
     section.block-views-blockslideshow-block-1 {
+        overflow: hidden;
+        border: 3px #fff solid;
         div.views-field-field-banner-image {
             img {
                 width: 100%;

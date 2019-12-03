@@ -127,11 +127,16 @@ body section#block-leftblock img {
 body section#block-coffeetable .field--item {
   background: none;
 }
-/* line 133, ../sass/style.scss */
+/* line 131, ../sass/style.scss */
+body section.block-views-blockslideshow-block-1 {
+  overflow: hidden;
+  border: 3px #fff solid;
+}
+/* line 135, ../sass/style.scss */
 body section.block-views-blockslideshow-block-1 div.views-field-field-banner-image img {
   width: 100%;
 }
-/* line 138, ../sass/style.scss */
+/* line 140, ../sass/style.scss */
 body section.block-views-blockslideshow-block-1 div.views-field-body {
   position: absolute;
   bottom: 0px;
@@ -141,7 +146,7 @@ body section.block-views-blockslideshow-block-1 div.views-field-body {
   height: 70px;
 }
 
-/* line 150, ../sass/style.scss */
+/* line 152, ../sass/style.scss */
 body.path-frontpage h1.page-header {
   display: none;
 }
