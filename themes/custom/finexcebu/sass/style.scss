@@ -7,6 +7,11 @@ body {
         margin-top: 20px;
         margin-bottom: 20px;
 
+        a.logo {
+            width: 88px;
+            overflow: hidden;
+        }
+
         section#block-finexcebuslogan {
             float: right;
             margin: 22px 0 0 0;
@@ -21,6 +26,7 @@ body {
             background: #0007ff;
             border: none !important;
             border-radius: 0px !important;
+            margin-bottom: 0px;
 
             .navbar-header {
                 a.logo {
@@ -91,6 +97,26 @@ body {
         .field--item {
             background: none;
             padding: 0px;
+        }
+    }
+    section#block-finexcebuslogan2 {
+        float: left;
+        text-transform: capitalize;
+        margin-top: 20px;
+        .field--item {
+            background: none;
+            padding: 0px;
+        }
+    }
+    section#block-leftblock {
+        img {
+            margin-right: 10px;
+        }
+    }
+
+    section.block-views-blockslideshow-block-1 {
+        img {
+            width: 100%;
         }
     }
 }

@@ -10,32 +10,38 @@ body div.header1 {
   margin-bottom: 20px;
 }
 /* line 10, ../sass/style.scss */
+body div.header1 a.logo {
+  width: 88px;
+  overflow: hidden;
+}
+/* line 15, ../sass/style.scss */
 body div.header1 section#block-finexcebuslogan {
   float: right;
   margin: 22px 0 0 0;
 }
-/* line 15, ../sass/style.scss */
+/* line 20, ../sass/style.scss */
 body div.header-outer-container {
   background: url(../images/outerheader_bg.png) repeat-x bottom center;
 }
-/* line 18, ../sass/style.scss */
+/* line 23, ../sass/style.scss */
 body div.header-outer-container header {
   #background: #10149d;
   #background: linear-gradient(0deg, #10149d 0%, #2e87c9 63%, #b5cbe4 100%);
   background: #0007ff;
   border: none !important;
   border-radius: 0px !important;
+  margin-bottom: 0px;
 }
-/* line 29, ../sass/style.scss */
+/* line 35, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > .open .dropdown-menu {
   background-color: #0007ff;
 }
-/* line 32, ../sass/style.scss */
+/* line 38, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > li > a,
 body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > a {
   color: #fff;
 }
-/* line 36, ../sass/style.scss */
+/* line 42, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > li > span {
   color: #fff;
   background-color: transparent;
@@ -45,28 +51,28 @@ body div.header-outer-container header .navbar-nav > li > span {
   line-height: 20px;
   margin: 0px;
 }
-/* line 45, ../sass/style.scss */
+/* line 51, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > li > a.active,
 body div.header-outer-container header .navbar-nav > li > .active-trail,
 body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > .active-trail {
   color: #000;
   background-color: #fffe13;
 }
-/* line 51, ../sass/style.scss */
+/* line 57, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > li > a:hover,
 body div.header-outer-container header .navbar-nav > li > span:hover,
 body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > a:hover {
   color: #000;
   background-color: #fffe13;
 }
-/* line 57, ../sass/style.scss */
+/* line 63, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > .open > a,
 body div.header-outer-container header .navbar-nav > .open > a:hover,
 body div.header-outer-container header .navbar-nav > .open > a:focus {
   color: #000;
   background-color: #fffe13;
 }
-/* line 67, ../sass/style.scss */
+/* line 73, ../sass/style.scss */
 body section .block-title {
   color: #000;
   background: #ffab4c;
@@ -82,14 +88,33 @@ body section .block-title {
   padding-top: 8px;
   border-radius: 6px 6px 0px 0px;
 }
-/* line 83, ../sass/style.scss */
+/* line 89, ../sass/style.scss */
 body section .field--item {
   background: #245694;
   background: linear-gradient(39deg, #245694 0%, #3682cf 100%);
   padding: 8px;
 }
-/* line 91, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 body section#block-finexcebuslogan .field--item {
   background: none;
   padding: 0px;
+}
+/* line 102, ../sass/style.scss */
+body section#block-finexcebuslogan2 {
+  float: left;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+/* line 106, ../sass/style.scss */
+body section#block-finexcebuslogan2 .field--item {
+  background: none;
+  padding: 0px;
+}
+/* line 112, ../sass/style.scss */
+body section#block-leftblock img {
+  margin-right: 10px;
+}
+/* line 118, ../sass/style.scss */
+body section.block-views-blockslideshow-block-1 img {
+  width: 100%;
 }
