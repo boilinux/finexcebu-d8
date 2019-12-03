@@ -145,8 +145,15 @@ body section.block-views-blockslideshow-block-1 div.views-field-body {
   background: url(../images/gray.png);
   height: 70px;
 }
+/* line 149, ../sass/style.scss */
+body section.block-views-blockslideshow-block-1 div.views-slideshow-controls-bottom {
+  position: absolute;
+  bottom: 0px;
+  z-index: 9;
+  width: 100%;
+}
 
-/* line 152, ../sass/style.scss */
+/* line 159, ../sass/style.scss */
 body.path-frontpage h1.page-header {
   display: none;
 }

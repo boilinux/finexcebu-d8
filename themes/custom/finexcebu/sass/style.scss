@@ -145,6 +145,13 @@ body {
             background: url(../images/gray.png);
             height: 70px;
         }
+
+        div.views-slideshow-controls-bottom {
+            position: absolute;
+            bottom: 0px;
+            z-index: 9;
+            width: 100%;
+        }
     }
 }
 
