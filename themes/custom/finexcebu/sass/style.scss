@@ -10,6 +10,11 @@ body {
         color: #fffe13;
     }
 
+    ul.nav > li > a:hover {
+        color: #000;
+        background: #fffe13;
+    }
+
     div.header1 {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -30,7 +35,7 @@ body {
         header {
             #background: rgb(16,20,157);
             #background: linear-gradient(0deg, rgba(16,20,157,1) 0%, rgba(46,135,201,1) 63%, rgba(181,203,228,1) 100%);
-            background: #0007ff;
+            background: #176dd6;
             border: none !important;
             border-radius: 0px !important;
             margin-bottom: 0px;
@@ -40,7 +45,7 @@ body {
                 }
             }
             .navbar-nav > .open .dropdown-menu {
-                background-color: #0007ff;
+                background-color: #176dd6;
             }
             .navbar-nav > li > a,
             .navbar-nav > .open .dropdown-menu > li > a {
@@ -80,8 +85,9 @@ body {
     section {
         .block-title {
             color: #000;
-            background: rgb(255,171,76);
-            background: linear-gradient(0deg, rgba(255,171,76,1) 7%, rgba(239,255,0,1) 90%, rgba(0,0,0,1) 100%);
+            //background: rgb(255,171,76);
+            //background: linear-gradient(0deg, rgba(255,171,76,1) 7%, rgba(239,255,0,1) 90%, rgba(0,0,0,1) 100%);
+            background: #ffc600;
             height: 30px;
             display: table;
             box-shadow: 0 2px 1px #fff;
@@ -91,13 +97,16 @@ body {
             text-align: center;
             font-weight: bold;
             padding-top: 8px;
-            border-radius: 6px 6px 0px 0px;
+            //border-radius: 6px 6px 0px 0px;
+            margin-top: 0px;
         }
 
         .field--item {
-            background: rgb(36,86,148);
-            background: linear-gradient(39deg, rgba(36,86,148,1) 0%, rgba(54,130,207,1) 100%);
+            //background: rgb(36,86,148);
+            //background: linear-gradient(39deg, rgba(36,86,148,1) 0%, rgba(54,130,207,1) 100%);
+            background: #1a3353;
             padding: 8px;
+            margin-bottom: 15px;
         }
     }
 
@@ -105,15 +114,16 @@ body {
         .field--item {
             background: none;
             padding: 0px;
+            margin-bottom: 0px;
         }
     }
     section#block-finexcebuslogan2 {
         float: left;
-        text-transform: capitalize;
         margin-top: 20px;
         .field--item {
             background: none;
             padding: 0px;
+            margin-bottom: 0px;
         }
     }
     section#block-leftblock {
@@ -123,6 +133,12 @@ body {
     }
 
     section#block-coffeetable {
+        .field--item {
+            background: none;
+        }
+    }
+
+    section#block-cfo {
         .field--item {
             background: none;
         }
@@ -151,6 +167,99 @@ body {
             bottom: 0px;
             z-index: 9;
             width: 100%;
+        }
+    }
+
+    section#block-affiliations {
+        .block-title {
+            text-align: left;
+            background: none;
+            border-radius: 0px;
+            color: #fff;
+            box-shadow: none;
+            text-shadow: 2px 3px 4px #000;
+        }
+        .field--item {
+            background: none;
+            p {
+                a {
+                    img {
+                        height: 72px;
+                        width: 72px;
+                        padding: 5px;
+                    }
+                }
+            }
+        }
+    }
+    
+    section#block-ad {
+        .block-title {
+            text-align: left;
+            background: none;
+            border-radius: 0px;
+            color: #fff;
+            box-shadow: none;
+            text-shadow: 2px 3px 4px #000;
+        }
+        .field--item {
+            background: none;
+        }
+    }
+    
+    section#block-partners {
+        .block-title {
+            text-align: left;
+            background: none;
+            border-radius: 0px;
+            color: #fff;
+            box-shadow: none;
+            text-shadow: 2px 3px 4px #000;
+        }
+        .field--item {
+            background: none;
+
+            p {
+                text-align: center;
+                img {
+                    margin: 10px;
+                }
+            }
+        }
+    }
+
+    .footer {
+        margin-top: 0px;
+        padding-top: 20px;
+
+        nav#block-finexinfo {
+            h2#block-finexinfo-menu {
+                font-size: 16px;
+                margin: 0px;
+                background: #ffc600;
+                padding: 10px;
+                color: #000;
+            }
+            ul.menu--finex-info {
+                background: #1a3353;
+
+            }
+        }
+
+        section#block-footerfinexlogo {
+            margin-top: 50px;
+            
+            .block-title {
+                text-align: left;
+                background: none;
+                border-radius: 0px;
+                color: #fff;
+                box-shadow: none;
+                text-shadow: 2px 3px 4px #000;
+            }
+            .field--item {
+                background: none;
+            }
         }
     }
 }
