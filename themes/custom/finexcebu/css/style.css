@@ -60,27 +60,28 @@ body div.header-outer-container header .navbar-nav > li > span {
   margin: 0px;
 }
 /* line 58, ../sass/style.scss */
+body div.header-outer-container header .navbar-nav > li > a.is-active,
 body div.header-outer-container header .navbar-nav > li > a.active,
 body div.header-outer-container header .navbar-nav > li > .active-trail,
 body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > .active-trail {
   color: #000;
   background-color: #fffe13;
 }
-/* line 64, ../sass/style.scss */
+/* line 65, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > li > a:hover,
 body div.header-outer-container header .navbar-nav > li > span:hover,
 body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > a:hover {
   color: #000;
   background-color: #fffe13;
 }
-/* line 70, ../sass/style.scss */
+/* line 71, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > .open > a,
 body div.header-outer-container header .navbar-nav > .open > a:hover,
 body div.header-outer-container header .navbar-nav > .open > a:focus {
   color: #000;
   background-color: #fffe13;
 }
-/* line 80, ../sass/style.scss */
+/* line 81, ../sass/style.scss */
 body section .block-title {
   color: #000;
   background: #ffab4c;
@@ -96,41 +97,41 @@ body section .block-title {
   padding-top: 8px;
   border-radius: 6px 6px 0px 0px;
 }
-/* line 96, ../sass/style.scss */
+/* line 97, ../sass/style.scss */
 body section .field--item {
   background: #245694;
   background: linear-gradient(39deg, #245694 0%, #3682cf 100%);
   padding: 8px;
 }
-/* line 104, ../sass/style.scss */
+/* line 105, ../sass/style.scss */
 body section#block-finexcebuslogan .field--item {
   background: none;
   padding: 0px;
 }
-/* line 109, ../sass/style.scss */
+/* line 110, ../sass/style.scss */
 body section#block-finexcebuslogan2 {
   float: left;
   text-transform: capitalize;
   margin-top: 20px;
 }
-/* line 113, ../sass/style.scss */
+/* line 114, ../sass/style.scss */
 body section#block-finexcebuslogan2 .field--item {
   background: none;
   padding: 0px;
 }
-/* line 119, ../sass/style.scss */
+/* line 120, ../sass/style.scss */
 body section#block-leftblock img {
   margin-right: 10px;
 }
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 body section#block-coffeetable .field--item {
   background: none;
 }
-/* line 132, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 body section.block-views-blockslideshow-block-1 div.views-field-field-banner-image img {
   width: 100%;
 }
-/* line 137, ../sass/style.scss */
+/* line 138, ../sass/style.scss */
 body section.block-views-blockslideshow-block-1 div.views-field-body {
   position: absolute;
   bottom: 0px;
@@ -140,7 +141,7 @@ body section.block-views-blockslideshow-block-1 div.views-field-body {
   height: 70px;
 }
 
-/* line 149, ../sass/style.scss */
+/* line 150, ../sass/style.scss */
 body.path-frontpage h1.page-header {
   display: none;
 }
