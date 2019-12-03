@@ -143,31 +143,36 @@ body {
             background: none;
         }
     }
+    div.region-header {
+        margin-bottom: 20px;
+        section.block-views-blockslideshow-block-1 {
+            overflow: hidden;
+            border: 3px #fff solid;
+            margin-bottom: 20px;
+            position: relative;
 
-    section.block-views-blockslideshow-block-1 {
-        overflow: hidden;
-        border: 3px #fff solid;
-        div.views-field-field-banner-image {
-            img {
+            div.views-field-field-banner-image {
+                img {
+                    width: 100%;
+                }
+            }
+    
+            div.views-field-body{
+                position: absolute;
+                bottom: 0px;
+                width: 100%;
+                text-align: center;
+                background: url(../images/gray.png);
+                height: 70px;
+            }
+    
+            div.views-slideshow-controls-bottom {
+                position: absolute;
+                bottom: 0px;
+                z-index: 9;
                 width: 100%;
             }
-        }
-
-        div.views-field-body{
-            position: absolute;
-            bottom: 0px;
-            width: 100%;
-            text-align: center;
-            background: url(../images/gray.png);
-            height: 70px;
-        }
-
-        div.views-slideshow-controls-bottom {
-            position: absolute;
-            bottom: 0px;
-            z-index: 9;
-            width: 100%;
-        }
+        }   
     }
 
     section#block-affiliations {
@@ -248,7 +253,7 @@ body {
 
         section#block-footerfinexlogo {
             margin-top: 50px;
-            
+
             .block-title {
                 text-align: left;
                 background: none;
