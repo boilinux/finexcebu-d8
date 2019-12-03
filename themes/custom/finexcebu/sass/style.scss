@@ -3,6 +3,13 @@ body {
     background: #090A43 url(../images/gradient_bg.png)no-repeat top right;
     color: #fff;
 
+    a {
+        color:#FFC800;
+    }
+    a:hover {
+        color: #fffe13;
+    }
+
     div.header1 {
         margin-top: 20px;
         margin-bottom: 20px;
@@ -114,9 +121,32 @@ body {
         }
     }
 
-    section.block-views-blockslideshow-block-1 {
-        img {
-            width: 100%;
+    section#block-coffeetable {
+        .field--item {
+            background: none;
         }
+    }
+
+    section.block-views-blockslideshow-block-1 {
+        div.views-field-field-banner-image {
+            img {
+                width: 100%;
+            }
+        }
+
+        div.views-field-body{
+            position: absolute;
+            bottom: 0px;
+            width: 100%;
+            text-align: center;
+            background: url(../images/gray.png);
+            height: 70px;
+        }
+    }
+}
+
+body.path-frontpage {
+    h1.page-header {
+        display: none;
     }
 }
