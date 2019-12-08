@@ -68,6 +68,7 @@ body {
                 background-color: #fffe13;
             }
             .navbar-nav > li > a:hover,
+            .navbar-nav > li.active > a:hover,
             .navbar-nav > li > span:hover,
             .navbar-nav > .open .dropdown-menu > li > a:hover {
                 color: #000;

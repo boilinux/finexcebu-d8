@@ -74,19 +74,20 @@ body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li >
 }
 /* line 70, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > li > a:hover,
+body div.header-outer-container header .navbar-nav > li.active > a:hover,
 body div.header-outer-container header .navbar-nav > li > span:hover,
 body div.header-outer-container header .navbar-nav > .open .dropdown-menu > li > a:hover {
   color: #000;
   background-color: #fffe13;
 }
-/* line 76, ../sass/style.scss */
+/* line 77, ../sass/style.scss */
 body div.header-outer-container header .navbar-nav > .open > a,
 body div.header-outer-container header .navbar-nav > .open > a:hover,
 body div.header-outer-container header .navbar-nav > .open > a:focus {
   color: #000;
   background-color: #fffe13;
 }
-/* line 86, ../sass/style.scss */
+/* line 87, ../sass/style.scss */
 body section .block-title,
 body section .page-header {
   color: #000;
@@ -102,58 +103,58 @@ body section .page-header {
   padding-top: 8px;
   margin-top: 0px;
 }
-/* line 105, ../sass/style.scss */
+/* line 106, ../sass/style.scss */
 body section .field--item,
 body section form {
   background: #176dd6;
   padding: 8px;
   margin-bottom: 15px;
 }
-/* line 116, ../sass/style.scss */
+/* line 117, ../sass/style.scss */
 body section#block-finexcebuslogan .field--item {
   background: none;
   padding: 0px;
   margin-bottom: 0px;
 }
-/* line 122, ../sass/style.scss */
+/* line 123, ../sass/style.scss */
 body section#block-finexcebuslogan2 {
   float: left;
   margin-top: 20px;
 }
-/* line 125, ../sass/style.scss */
+/* line 126, ../sass/style.scss */
 body section#block-finexcebuslogan2 .field--item {
   background: none;
   padding: 0px;
   margin-bottom: 0px;
 }
-/* line 132, ../sass/style.scss */
+/* line 133, ../sass/style.scss */
 body section#block-leftblock img {
   margin-right: 10px;
 }
-/* line 138, ../sass/style.scss */
+/* line 139, ../sass/style.scss */
 body section#block-coffeetable .field--item {
   background: none;
 }
-/* line 144, ../sass/style.scss */
+/* line 145, ../sass/style.scss */
 body section#block-cfo .field--item {
   background: none;
 }
-/* line 148, ../sass/style.scss */
+/* line 149, ../sass/style.scss */
 body div.region-header {
   margin-bottom: 20px;
 }
-/* line 150, ../sass/style.scss */
+/* line 151, ../sass/style.scss */
 body div.region-header section.block-views-blockslideshow-block-1 {
   overflow: hidden;
   border: 3px #fff solid;
   margin-bottom: 20px;
   position: relative;
 }
-/* line 157, ../sass/style.scss */
+/* line 158, ../sass/style.scss */
 body div.region-header section.block-views-blockslideshow-block-1 div.views-field-field-banner-image img {
   width: 100%;
 }
-/* line 162, ../sass/style.scss */
+/* line 163, ../sass/style.scss */
 body div.region-header section.block-views-blockslideshow-block-1 div.views-field-body {
   position: absolute;
   bottom: 0px;
@@ -162,14 +163,14 @@ body div.region-header section.block-views-blockslideshow-block-1 div.views-fiel
   background: url(../images/gray.png);
   height: 70px;
 }
-/* line 171, ../sass/style.scss */
+/* line 172, ../sass/style.scss */
 body div.region-header section.block-views-blockslideshow-block-1 div.views-slideshow-controls-bottom {
   position: absolute;
   bottom: 0px;
   z-index: 9;
   width: 100%;
 }
-/* line 181, ../sass/style.scss */
+/* line 182, ../sass/style.scss */
 body section#block-affiliations .block-title {
   text-align: left;
   background: none;
@@ -178,17 +179,17 @@ body section#block-affiliations .block-title {
   box-shadow: none;
   text-shadow: 2px 3px 4px #000;
 }
-/* line 189, ../sass/style.scss */
+/* line 190, ../sass/style.scss */
 body section#block-affiliations .field--item {
   background: none;
 }
-/* line 193, ../sass/style.scss */
+/* line 194, ../sass/style.scss */
 body section#block-affiliations .field--item p a img {
   height: 72px;
   width: 72px;
   padding: 5px;
 }
-/* line 204, ../sass/style.scss */
+/* line 205, ../sass/style.scss */
 body section#block-ad .block-title {
   text-align: left;
   background: none;
@@ -197,11 +198,11 @@ body section#block-ad .block-title {
   box-shadow: none;
   text-shadow: 2px 3px 4px #000;
 }
-/* line 212, ../sass/style.scss */
+/* line 213, ../sass/style.scss */
 body section#block-ad .field--item {
   background: none;
 }
-/* line 218, ../sass/style.scss */
+/* line 219, ../sass/style.scss */
 body section#block-partners .block-title {
   text-align: left;
   background: none;
@@ -210,24 +211,24 @@ body section#block-partners .block-title {
   box-shadow: none;
   text-shadow: 2px 3px 4px #000;
 }
-/* line 226, ../sass/style.scss */
+/* line 227, ../sass/style.scss */
 body section#block-partners .field--item {
   background: none;
 }
-/* line 229, ../sass/style.scss */
+/* line 230, ../sass/style.scss */
 body section#block-partners .field--item p {
   text-align: center;
 }
-/* line 231, ../sass/style.scss */
+/* line 232, ../sass/style.scss */
 body section#block-partners .field--item p img {
   margin: 10px;
 }
-/* line 238, ../sass/style.scss */
+/* line 239, ../sass/style.scss */
 body .footer {
   margin-top: 0px;
   padding-top: 20px;
 }
-/* line 243, ../sass/style.scss */
+/* line 244, ../sass/style.scss */
 body .footer nav#block-finexinfo h2#block-finexinfo-menu {
   font-size: 16px;
   margin: 0px;
@@ -235,15 +236,15 @@ body .footer nav#block-finexinfo h2#block-finexinfo-menu {
   padding: 10px;
   color: #000;
 }
-/* line 250, ../sass/style.scss */
+/* line 251, ../sass/style.scss */
 body .footer nav#block-finexinfo ul.menu--finex-info {
   background: #1a3353;
 }
-/* line 256, ../sass/style.scss */
+/* line 257, ../sass/style.scss */
 body .footer section#block-footerfinexlogo {
   margin-top: 50px;
 }
-/* line 259, ../sass/style.scss */
+/* line 260, ../sass/style.scss */
 body .footer section#block-footerfinexlogo .block-title {
   text-align: left;
   background: none;
@@ -252,12 +253,12 @@ body .footer section#block-footerfinexlogo .block-title {
   box-shadow: none;
   text-shadow: 2px 3px 4px #000;
 }
-/* line 267, ../sass/style.scss */
+/* line 268, ../sass/style.scss */
 body .footer section#block-footerfinexlogo .field--item {
   background: none;
 }
 
-/* line 275, ../sass/style.scss */
+/* line 276, ../sass/style.scss */
 body.path-frontpage h1.page-header {
   display: none;
 }
