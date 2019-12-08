@@ -83,7 +83,8 @@ body {
     }
 
     section {
-        .block-title {
+        .block-title,
+        .page-header {
             color: #000;
             //background: rgb(255,171,76);
             //background: linear-gradient(0deg, rgba(255,171,76,1) 7%, rgba(239,255,0,1) 90%, rgba(0,0,0,1) 100%);
@@ -101,10 +102,11 @@ body {
             margin-top: 0px;
         }
 
-        .field--item {
+        .field--item,
+        form {
             //background: rgb(36,86,148);
             //background: linear-gradient(39deg, rgba(36,86,148,1) 0%, rgba(54,130,207,1) 100%);
-            background: #1a3353;
+            background: #176dd6;
             padding: 8px;
             margin-bottom: 15px;
         }
