@@ -1,3 +1,9 @@
+$nav-bg: #fffe13;
+$field_item_bg: #176dd6;
+$main_content_bg: #fff;
+$main_content_color: #000;
+
+
 body {
     font-family: arial; 
     background: #090A43 url(../images/gradient_bg.png)no-repeat top right;
@@ -7,12 +13,12 @@ body {
         color:#FFC800;
     }
     a:hover {
-        color: #fffe13;
+        color: $nav-bg;
     }
 
     ul.nav > li > a:hover {
         color: #000;
-        background: #fffe13;
+        background: $nav-bg;
     }
 
     div.header1 {
@@ -65,20 +71,20 @@ body {
             .navbar-nav > li > .active-trail,
             .navbar-nav > .open .dropdown-menu > li > .active-trail{
                 color: #000;
-                background-color: #fffe13;
+                background-color: $nav-bg;
             }
             .navbar-nav > li > a:hover,
             .navbar-nav > li.active > a:hover,
             .navbar-nav > li > span:hover,
             .navbar-nav > .open .dropdown-menu > li > a:hover {
                 color: #000;
-                background-color: #fffe13;
+                background-color: $nav-bg;
             }
             .navbar-nav > .open > a, 
             .navbar-nav > .open > a:hover, 
             .navbar-nav > .open > a:focus, {
                 color: #000;
-                background-color: #fffe13;	
+                background-color: $nav-bg;	
             }
         }
     }
@@ -105,9 +111,21 @@ body {
 
         .field--item,
         form {
+            color: $main_content_color;
             //background: rgb(36,86,148);
             //background: linear-gradient(39deg, rgba(36,86,148,1) 0%, rgba(54,130,207,1) 100%);
-            background: #176dd6;
+            background: $main_content_bg;
+            padding: 8px;
+            margin-bottom: 15px;
+        }
+    }
+
+    aside {
+        .field--item,
+        form {
+            //background: rgb(36,86,148);
+            //background: linear-gradient(39deg, rgba(36,86,148,1) 0%, rgba(54,130,207,1) 100%);
+            background: $field_item_bg;
             padding: 8px;
             margin-bottom: 15px;
         }
