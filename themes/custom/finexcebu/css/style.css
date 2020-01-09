@@ -295,5 +295,5 @@ body .footer section#block-footerfinexlogo .field--item {
 
 /* line 328, ../sass/style.scss */
 body.path-frontpage h1.page-header {
-  display: none;
+  display: none !important;
 }

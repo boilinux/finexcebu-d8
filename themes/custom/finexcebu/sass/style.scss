@@ -326,6 +326,6 @@ body {
 
 body.path-frontpage {
     h1.page-header {
-        display: none;
+        display: none !important;
     }
 }
