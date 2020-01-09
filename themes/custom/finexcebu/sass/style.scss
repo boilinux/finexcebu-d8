@@ -91,6 +91,34 @@ body {
     }
 
     section {
+        .block-title,
+        .page-header {
+            color: #000;
+            //background: rgb(255,171,76);
+            //background: linear-gradient(0deg, rgba(255,171,76,1) 7%, rgba(239,255,0,1) 90%, rgba(0,0,0,1) 100%);
+            background: #ffc600;
+            height: 30px;
+            display: table;
+            box-shadow: 0 2px 1px #fff;
+            margin-bottom: 2px;
+            font-size: 16px;
+            width: 100%;
+            text-align: center;
+            font-weight: bold;
+            padding-top: 8px;
+            //border-radius: 6px 6px 0px 0px;
+            margin-top: 0px;
+        }
+        .field--item,
+        form {
+            color: $main_content_color;
+            //background: rgb(36,86,148);
+            //background: linear-gradient(39deg, rgba(36,86,148,1) 0%, rgba(54,130,207,1) 100%);
+            background: $field_item_bg;
+            padding: 8px;
+            margin-bottom: 15px;
+        }
+
         div.region-content {
             .block-title,
             .page-header {
@@ -139,6 +167,7 @@ body {
             background: none;
             padding: 0px;
             margin-bottom: 0px;
+            color: #fff;
         }
     }
     section#block-finexcebuslogan2 {
@@ -148,6 +177,7 @@ body {
             background: none;
             padding: 0px;
             margin-bottom: 0px;
+            color: #fff;
         }
     }
     section#block-leftblock {
@@ -288,6 +318,7 @@ body {
             }
             .field--item {
                 background: none;
+                color: #fff;
             }
         }
     }
